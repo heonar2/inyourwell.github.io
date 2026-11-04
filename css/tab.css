@@ -1,0 +1,270 @@
+@media all and (max-width: 1280px) {
+    header {
+
+        --header-gap: 80px;
+        --header-top: 60px;
+
+
+        width: calc(100% - var(--header-gap));
+        height: 70px;
+        top: var(--header-top);
+    }
+
+    h1 {
+        width: 50px;
+        height: 50px;
+        margin-left: 45px;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .mo_wrap {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        padding: 60px;
+        overflow-y: auto;
+    }
+
+    .login_menu {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .login_menu::after {
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #D8C4B4;
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+    }
+
+    .left {
+        width: 180px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .log {
+        height: 50px;
+        border-radius: 100px;
+        background-color: #D8C4B4;
+        line-height: 50px;
+        text-align: center;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    #mo_login {
+        width: 74px;
+    }
+
+    #mo_join {
+        width: 89px;
+    }
+    
+    .close {
+        font-size: 40px;
+        cursor: pointer;
+        color: #D8C4B4;
+        font-weight: 800;
+    }
+
+    .mo_menu > li{
+        width: 300px;
+        padding-bottom: 30px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .mo_menu > li:first-child {
+        margin-top: 80px;
+    }
+
+    .mosub {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        display: none;
+    }
+
+    .mosub > li{
+        padding: 20px 0 10px 0; 
+    }
+
+    .right_menu {
+        margin-right: 45px;
+    }
+
+    .lang {
+        width: 40px;
+        height: 29px;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+        width: 23px;
+        height: 23px;
+        cursor: pointer;
+    }
+
+    .ham img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*섹션1*/
+
+    .imgsec {
+        height: calc(100vh - 80px);
+    }
+
+    .imgsec > h2 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    h2 > span {
+        display: block;
+    }
+
+    .anisec {
+        height: 80px;
+    }
+
+    .con {
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    /*섹션2*/
+
+    #sec2 {
+        height: 1194px;
+        padding: 80px 0;
+    }
+
+    .in_sec {
+        width: calc(100vw - 80px);
+        height: 1034px;
+        flex-direction: column;
+    }
+
+    .textbox {
+        margin-top: 0;
+    }
+
+    .textbox .bold {
+        font-size: 38px;
+        margin-top: 17px;
+    }
+
+    .mar {
+        margin-top: 8px;
+    }
+
+    .btn {
+        margin-top: 25px;
+    }
+
+    .videobox {
+        width: 100%;
+        height: 576px;
+    }
+
+    .flowerbox {
+        width: 265px;
+        height: 447px;
+        bottom: 20px;
+    }
+
+    .flowerbox img {
+        height: 534px;
+    }
+
+    /*섹션3*/
+
+    #sec3 {
+        height: 883px;
+        padding: 80px 0 90px 0;
+    }
+
+    .in_sec2 {
+        height: 713px;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .mySwiper {
+        margin-top: 50px;
+    }
+
+    .mySwiper .imgcon {
+        width: 500px;
+        height: 600px;
+    }
+
+    .arrow2 {
+        display: none;
+    }
+
+    /*섹션4*/
+
+    #sec4 {
+        padding: 80px 0 90px 0;
+    }
+
+    .basicSwiper .eventwrap {
+        width: 652px;
+        height: 396px;
+        margin: 50px auto 0;
+    }
+
+    .eventwrap .event {
+        width: 318px;
+    }
+
+    /*푸터*/
+
+    .in_foot {
+        width: calc(100vw - 80px);
+    }
+
+    .bottomfoot {
+        flex-direction: column;
+        height: 350px;
+        gap: 50px;
+    }
+
+    .mocon {
+        gap: 200px;
+    }
+
+    .bottom {
+        gap: 328px;
+    }
+
+}

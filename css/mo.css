@@ -1,0 +1,257 @@
+@media all and (max-width: 780px) {
+    header {
+
+        --header-gap: 40px;
+        --header-top: 40px;
+
+        width: calc(100% - var(--header-gap));
+        height: 50px;
+        top: var(--header-top);
+    }
+
+    h1 {
+        width: 38px;
+        height: 38px;
+        margin-left: 25px;
+    }
+
+    .login_menu {
+        height: 30px;
+    }
+
+    .log {
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+
+    .close {
+        font-size: 36px;
+    }
+
+    .mo_menu > li {
+        font-size: 16px;
+    }
+
+    .mosub {
+        font-size: 14px;
+    }
+
+    .right_menu {
+        margin-right: 25px;
+        gap: 10px;
+    }
+
+    .lang {
+        width: 30px;
+        height: auto;
+    }
+
+    .ham {
+        width: 16px;
+        height: 16px;
+    }
+
+    /*섹션1*/
+
+    .imgsec {
+        height: calc(100vh - 50px);
+        background: url(../images/mosec1.png) no-repeat center / cover;
+    }
+
+    .imgsec > h2 {
+        font-size: 30px;
+    }
+
+    .anisec {
+        height: 50px;
+    }
+
+    .con {
+        font-size: 14px;
+        line-height: 25px
+    }
+
+    /*섹션2*/
+
+    #sec2 {
+        width: 100%;
+        height: 812px;
+        padding: 50px 0 66px 0;
+    }
+
+    .in_sec {
+        width: calc(100vw - 40px);
+        height: 696px;
+    }
+
+    .textbox p {
+        font-size: 14px;
+    }
+
+    .textbox .bold {
+        font-size: 28px;
+        margin-top: 21px;
+    }
+
+    .mar {
+        margin-top: 14px;
+    }
+
+    .btn {
+        width: 141px;
+        margin-top: 21px;
+        font-size: 14px;
+    }
+
+    .btn img {
+        width: 12px;
+        height: 10px;
+    }
+
+    .videobox {
+        height: 340px;
+    }
+
+    .flowerbox {
+        width: 145px;
+        height: 233px;
+    }
+
+    .flowerbox img {
+        height: 253px;
+    }
+
+    /*섹션3*/
+
+    #sec3 {
+        height: 579px;
+        padding: 50px 0 60px 0;
+    }
+
+    .in_sec2 {
+        height: 351px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .mySwiper {
+        margin-top: 30px;
+    }
+
+    .mySwiper .imgcon {
+        width: 300px;
+        height: 400px;
+    }
+
+    .context {
+        bottom: 30px;
+        left: 16px;
+        font-size: 14px;
+    }
+
+    .context p:nth-child(2) {
+        font-size: 20px;
+    }
+
+    .context p:last-child {
+        margin-top: 13px;
+    }
+
+    .mySwiper .swiper-pagination-bullet {
+        width: 7px;
+        height: 7px;
+    }
+
+    .mySwiper .swiper-pagination-bullet-active {
+        width: 15px;
+    }
+
+    /*섹션4*/
+
+    #sec4 {
+        
+        padding: 50px 0 60px;
+    }
+
+    .in3 {
+        width: calc(100vw - 80px);
+        margin: 0 auto;
+    }
+
+    .basicSwiper .eventwrap {
+        width: 406px;
+        height: 296px;
+    }
+
+    .eventwrap .event {
+        width: 218px;
+    }
+
+    /*푸터*/
+
+    .in_foot {
+        width: calc(100vw - 40px);
+    }
+
+    .topfoot {
+        padding: 16px 0;
+    }
+
+    .footmenu {
+        font-size: 12px;
+    }
+
+    .bottomfoot {
+        height: 368px;
+        padding-top: 10px;
+        gap: 20px;
+    }
+
+    .mocon {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footcon {
+        font-size: 12px;
+    }
+
+    .daycon {
+        gap: 38px;
+        margin: 8px 0;
+    }
+
+    .address {
+        margin-top: 8px;
+    }
+
+    .bottom {
+        flex-direction: row;
+        gap: 116px;
+    }
+
+    .callcon {
+        margin-top: 8px;
+    }
+
+    .chat {
+        width: 116px;
+        height: 38px;
+        margin-top: 21px;
+        padding: 9px 15px;
+    }
+
+    .snscon {
+        margin-top: 8px;
+    }
+
+    .snsimg {
+        width: 18px;
+        height: 18px;
+    }
+
+
+}
