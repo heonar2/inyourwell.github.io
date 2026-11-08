@@ -184,6 +184,7 @@
     .basicSwiper .eventwrap {
         width: 406px;
         height: 296px;
+        margin: 30px auto 0;
     }
 
     .eventwrap .event {
